@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url('/static/images/weather_background.jpg'); /* Make sure this path and filename are correct! */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white for readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+/* ... rest of your CSS ... */
